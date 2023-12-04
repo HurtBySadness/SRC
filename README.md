@@ -24,7 +24,53 @@ decrypts a message from the user.
 - Daelon Ruidsel
 
 ## Programming Approaches
-how we approached this program should go here
+# Vigenere Cipher Project
+
+## Introduction
+This project implements a Vigenere Cipher for text encryption and decryption. The program is developed in C++ and provides a user-friendly console interface.
+
+## Programming Approach
+The project follows a modular and structured approach, utilizing functions for different aspects of the program. Decision-making is handled through switch-case statements, ensuring a clear control flow. The code aims for readability and maintainability through consistent naming conventions and comments.
+
+## Project Structure
+The project is organized into several key components:
+
+- **Main Program:** The main program controls the flow of the application, handling user input and invoking relevant functions.
+- **Functions:** Different functionalities, such as menu display, encryption, decryption, and user interaction, are encapsulated into separate functions.
+- **Global Constants and Variables:** Constants and variables are declared globally for easy access and modification.
+
+## Functions
+
+### `displayMenu()`
+This function displays the main menu, prompting the user to make a selection. It ensures valid input and returns the user's choice.
+
+### `titleScreen()`
+Displays the title screen, including project information and usage statistics.
+
+### `credits()`
+Outputs the credits section, acknowledging the contributions of team members.
+
+### `timesUsedMsg()`
+Outputs a message indicating how many times the program has been used.
+
+...
+
+## Limitations
+
+- **Input Length:** The program currently limits input text and keywords to 50 characters. Consider enhancing this to handle longer inputs.
+
+## Recommendations for Improvement
+
+- **Dynamic Input Handling:** Allow for dynamic input lengths instead of fixed limits, providing a more flexible user experience.
+- **Error Handling:** Implement more detailed error messages and instructions for users when input limits are exceeded or incorrect choices are made.
+
+## Usage
+
+To run the program, follow these steps:
+
+1. Clone the repository.
+2. Compile the C++ code using [compiler_name].
+3. Execute the compiled program.
 
 ## How To Use
 After running the program, you're greeted with 4 options (in order): Encrypt, Decrypt, Credits, and Quit. <br />
