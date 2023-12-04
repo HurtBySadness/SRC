@@ -1,5 +1,5 @@
 Date Published: 11/24/2023 <br />
-Last Updated: 12/5/2023 - 8:36 PM
+Last Updated: 12/5/2023 - 10:32 PM
 # Case 3: Vigenere Cipher Decryption
 Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple form of polyalphabetic
 substitution. A polyalphabetic cipher is any cipher based on substitution, using multiple substitution
@@ -24,50 +24,42 @@ decrypts a message from the user.
 - Daelon Ruidsel
 
 ## Programming Approaches
-# Vigenere Cipher Project
-
-## Introduction
+### Introduction
 This project implements a Vigenere Cipher for text encryption and decryption. The program is developed in C++ and provides a user-friendly console interface.
 
-## Programming Approach
+### Programming Approach
 The project follows a modular and structured approach, utilizing functions for different aspects of the program. Decision-making is handled through switch-case statements, ensuring a clear control flow. The code aims for readability and maintainability through consistent naming conventions and comments.
 
-## Project Structure
+### Project Structure
 The project is organized into several key components:
-
 - **Main Program:** The main program controls the flow of the application, handling user input and invoking relevant functions.
 - **Functions:** Different functionalities, such as menu display, encryption, decryption, and user interaction, are encapsulated into separate functions.
 - **Global Constants and Variables:** Constants and variables are declared globally for easy access and modification.
 
-## Functions
-
-### `displayMenu()`
+### Functions
+#### `displayMenu()`
 This function displays the main menu, prompting the user to make a selection. It ensures valid input and returns the user's choice.
 
-### `titleScreen()`
+#### `titleScreen()`
 Displays the title screen, including project information and usage statistics.
 
-### `credits()`
+#### `credits()`
 Outputs the credits section, acknowledging the contributions of team members.
 
-### `timesUsedMsg()`
+#### `timesUsedMsg()`
 Outputs a message indicating how many times the program has been used.
 
 ...
 
-## Limitations
-
+### Limitations
 - **Input Length:** The program currently limits input text and keywords to 50 characters. Consider enhancing this to handle longer inputs.
 
-## Recommendations for Improvement
-
+### Recommendations for Improvement
 - **Dynamic Input Handling:** Allow for dynamic input lengths instead of fixed limits, providing a more flexible user experience.
 - **Error Handling:** Implement more detailed error messages and instructions for users when input limits are exceeded or incorrect choices are made.
 
-## Usage
-
+### Usage
 To run the program, follow these steps:
-
 1. Clone the repository.
 2. Compile the C++ code using [compiler_name].
 3. Execute the compiled program.
