@@ -1,19 +1,50 @@
-# SRC
-Final Project Discrete Structures 
-# CIS7-Discrete-Structures-Course-Project-UPDATED-
-Final Project Discrete Structures 
-Case 3: Vigenere Cipher Decryption
-Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple form of polyalphabetic substitution. A polyalphabetic cipher is any cipher based on substitution, using multiple substitution alphabets. The encryption of the original text is done using the Vigenère square or Vigenère table. The table consists of the alphabet written out 26 times in different rows, and each alphabet shifted cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar Ciphers.
-At different points in the encryption process, the cipher uses a different alphabet from one of the rows.
-The alphabet used at each point depends on a repeating keyword.
-For generating a key, the given keyword is repeated circularly until it matches the length of the plain text.
+Date Published: 11/24/2023 <br />
+Last Updated: 12/5/2023 - 8:36 PM
+# Case 3: Vigenere Cipher Decryption
+Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple form of polyalphabetic
+substitution. A polyalphabetic cipher is any cipher based on substitution, using multiple substitution
+alphabets .The encryption of the original text is done using the Vigenère square or Vigenère table.
+The table consists of the alphabets written out 26 times in different rows, each alphabet shifted
+cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar
+Ciphers. <br />
+At different points in the encryption process, the cipher uses a different alphabet from one of the rows. <br />
+The alphabet used at each point depends on a repeating keyword. <br />
+For generating key, the given keyword is repeated in a circular manner until it matches the length of the
+plain text.
 
-Tasks
-Given the above description of the Vigenère cipher, create a C++ program that encrypts and decrypts a message from the user.
-Test the program to verify that the output is accurate. Assess program limitations.
-Provide documentation that entails a programming approach for encryption and decryption.
-Team WAFFLES
-Team Members:
-Xenon Garcia
-Daelon Ruidsel
-Jose Orozco
+## Tasks
+1. Given the above description of the Vigenère cipher, create a C++ program that encrypt and
+decrypts a message from the user.
+2. Test the program to verify that the output is accurate. Assess program limitations.
+3. Provide documentation that entails programming approach for encryption and decryption.
+
+## Team WAFFLES
+### Team Members:
+- Xenon Garcia
+- Daelon Ruidsel
+
+## Programming Approaches
+how we approached this program should go here
+
+## How To Use
+After running the program, you're greeted with 4 options (in order): Encrypt, Decrypt, Credits, and Quit. <br />
+
+If you would like to encrypt, type 1 then press enter: <br />
+1) Type in what word you would like to encrypt (no spaces)
+2) Type in the keyword (Also no spaces)
+3) Output displays in the following order: Plain Text, Keyword, Ciphered Text.
+
+If you would like to decrypt, type 2 then press enter: <br />
+1) Text appears "Would you like to use previous input? (y/n)"
+   - (If Y) If you haven't already encrypted something, it'll ask you to encrypt something first.
+      - (If Y) If you have encrypted something already, it'll use your previous input.
+   - (If N) If you don't want to use previous input, it'll ask you to input something.
+      - Steps are like encrypting so no need to repeat.
+2) Once decryption is done, once prompted to exit, everything will reset.
+
+If you want to see the credits, type 3 then press enter. <br />
+If you would like to stop using the program, type 4 then press enter. <br />
+
+**In all instances, it would ask you if you would like to return to the menu,**
+   - If yes, you'll return to the menu
+   - If no, program will end
